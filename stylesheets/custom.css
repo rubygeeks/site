@@ -1,0 +1,60 @@
+body { text-align: center; }
+
+.container { margin: 10px auto; }
+
+code { font-family: "Courier New", Courier, monospace; line-height: 1.2; }
+
+pre { padding: 10px; overflow: auto; width: 95%; background: #eee; color: #000; }
+
+#header { text-align: left; font-size: 1.3em; padding: 5px 0; }
+#header h1 { font-weight: bold; margin: 0; padding: 0; }
+#header h1 a { text-decoration: none; color: #333; }
+
+#content { text-align: left; }
+
+article { margin-bottom: 45px; }
+.post { font-size: 1.2em; }
+.post h3 { margin: 10px 0; }
+.post .postbody { font-family: Georgia, "Times New Roman", serif; }
+.post .meta { padding: 0 0 5px 0; font-size: 1.1em; color: #696969; }
+.post .meta a { color: #696969; text-decoration: none; }
+.post .meta a:hover { color: #333; }
+
+ul.pager { text-align: center; font-size: 1.1em; }
+ul.pager li { display: inline; margin-right: 5px; }
+ul.pager li.active a { text-decoration: none; }
+
+ul.archive { list-style: none; }
+ul.archive li { padding: 0; margin: 0; }
+
+ul.links { margin-bottom: 20px; padding: 0; list-style: none; }
+ul.links li { margin: 0; padding: 0; display: inline; }
+ul.links li:after { content: ' / '; }
+ul.links li.first { font-weight: bold; }
+ul.links li.last:after, ul.links li.first:after { content: '  '; }
+
+#footer { margin-top: 10px; padding-top: 10px; border-top: 1px dotted #333; }
+
+.admin { padding: 3px 5px; margin: 5px 0; border: 1px solid #aaa; background: #eee; }
+
+#sidebar { margin-top: 5px; text-align: left; }
+#sidebar .sidebarbox { margin-bottom: 10px; }
+#sidebar .sidebarbox h4 { font-weight: bold; margin: 3px 0; }
+#sidebar .sidebarbox p { padding-left: 2px; font-size: 1.2em; }
+#sidebar .sidebarbox ul { margin-left: 1px; padding: 2px; list-style-type: none; }
+#sidebar .sidebarbox ul li { font-size: 1.2em; padding: 0 0 5px 0; }
+
+a.icon-link { padding: 1px 1px 1px 21px; text-align: left; }
+a#feed-link { background: url("/images/feedicon16.png") center left no-repeat; }
+a#flickr-link { background: url("/images/flickr-icon.png") center left no-repeat; }
+a#tumblr-link { background: url("/images/tumblr-icon.png") center left no-repeat; }
+a#github-link { background: url("/images/github-icon.png") center left no-repeat; }
+a#twitter-link { background: url("/images/twitter-icon.png") center left no-repeat; }
+a#linkedin-link { background: url("/images/linkedin-icon.png") center left no-repeat; }
+a#aim-link { background: url("/images/aim-icon.png") center left no-repeat; }
+a#gmail-link { background: url("/images/gmail-icon.png") center left no-repeat; }
+a#skype-link { background: url("/images/skype-icon.png") center left no-repeat; }
+
+.pagination { font-size: 1.2em; width: 99%; margin: 10px; }
+.pagination .previous_link { float: left; padding-left: 25px; }
+.pagination .next_link { float: right; padding-right: 25px; }

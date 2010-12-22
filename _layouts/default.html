@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="author" content="{{ site.author }}" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="keywords" content="" />
+    <link href="{{ site.url }}/rss" rel="alternate" title="" type="application/rss+xml" />
+    <link href="http://www.rubygeeks.com/" rel="home" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link type="text/css" rel="stylesheet" media="screen, projection" href="/stylesheets/screen.css" /> 
+    <link type="text/css" rel="stylesheet" media="print" href="/stylesheets/print.css" />
+    <!--[if lt IE 8]>
+      <link type="text/css" rel="stylesheet" media="screen, projection" href="/stylesheets/ie.css" />
+    <![endif]--> 
+    <link type="text/css" rel="stylesheet" media="all" href="/stylesheets/custom.css" />
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    {% include google_analytics.html %}
+  </head>
+  <body>
+    <div class="container">
+
+      <header class="span-21 last" id="header">
+        <h1><a href="{{ site.url }}" rel="home bookmark">{{ site.title }}</a></h1>
+      </header>
+
+      <div class="span-16" id="content">
+        {{ content }}
+      </div>
+
+      <div class="span-5 last" id="sidebar">
+        <div class="sidebarbox"> 
+          <h4 id="about-header">About</h4> 
+          <p>A new initiative from RailsFactory for building a community of opensource contributors for ruby</p> 
+        </div> 
+        <div class="sidebarbox"> 
+          <h4 id="pages-header">Pages</h4> 
+          <ul id="pages"> 
+            <li> 
+              <a rel="bookmark" title="About" href="{{ site.url }}/about.html">About</a> 
+            </li> 
+            <li> 
+              <a rel="bookmark" title="Links" href="{{ site.url }}/links.html">Links</a> 
+            </li>
+            <li> 
+              <a rel="bookmark" title="All archived posts at RubyGeeks" href="{{ site.url }}/archive.html" id="archives">Archives</a> 
+            </li>
+          </ul>
+        </div>
+        <div class="sidebarbox"> 
+          <h4 id="more-content-header">Subscribe</h4> 
+          <ul id="more-content"> 
+            <li> 
+              <a title="The RSS feed for new posts at RubyGeeks" href="{{ site.url }}/rss" class="icon-link" id="feed-link">RSS</a> 
+            </li> 
+          </ul> 
+        </div> 
+        <div class="sidebarbox"> 
+          <h4 id="more-content-header">Sidebar 1</h4> 
+          <ul id="more-content"> 
+            <li> 
+              <a rel="bookmark" title="RailsFactory on Facebook" href="http://facebook.com/RailsFactory" class="icon-link" id="facebook-link">RailsFactory on Facebook</a> 
+            </li> 
+            
+          </ul> 
+        </div> 
+        <div class="sidebarbox"> 
+          <h4 id="more-content-header">Contact Me</h4> 
+          <ul id="more-content"> 
+            <li> 
+              <a rel="bookmark" title="Send us a mail" href="mailto:admin@rubygeeks.com" class="icon-link" id="email-link">admin@rubygeeks.com</a> 
+            </li> 
+          </ul> 
+        </div> 
+      </div>
+
+      <footer class="span-21 last" id="footer">
+        All content copyright &copy; {{ 'now' | date: "%Y" }} Rubygeek, unless otherwise specified. 
+        Powered by <a href="http://github.com/mojombo/jekyll" title="The Jekyll (static site generator) code repository" rel="external">Jekyll</a>.
+      </footer>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      //<![CDATA[
+        $(document).ready(function() {
+          $("a.icon-link").click( function(e) {
+            _gaq.push(['_trackEvent', 'External Links', 'Click', $(this).html()]);
+          });
+          $("a", "ul.friend-links").click( function(e) {
+            _gaq.push(['_trackEvent', 'Friend Links', 'Click', $(this).html()]);
+          });
+        });
+      //]]>
+    </script>
+
+    {% include disqus.html %}
+
+  </body>
+</html>

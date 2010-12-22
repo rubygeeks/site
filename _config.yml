@@ -1,0 +1,17 @@
+title: "RubyGeeks"
+url: "http://rubygeeks.com"
+author: "Senthil Nayagam"
+email: "senthil@rubygeeks.com"
+description: "meeting point for rubygeeks"
+
+auto: false
+source: .
+paginate: 10
+permalink: /:year/:month/:title
+
+markdown: rdiscount
+pygments: false
+
+exclude:
+  - README.markdown
+  - _drafts
