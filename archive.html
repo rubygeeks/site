@@ -5,7 +5,7 @@ title: Archive of All Posts
 <ul class="archive">
   {% for post in site.posts %}
     <li>
-      <a href="{{ site.url }}{{ post.url }}" title="{{ post.title | escape }}" rel="bookmark">{{ post.title }}</a> &mdash; {{ post.date | date: "%Y-%m-%d" }}
+      <a href="{{ post.url }}" title="{{ post.title | escape }}" rel="bookmark">{{ post.title }}</a> &mdash; {{ post.date | date: "%Y-%m-%d" }}
       {% if post.excerpt.size > 0 %}
         <blockquote>
           {{ post.excerpt }}
