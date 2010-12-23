@@ -7,6 +7,9 @@ tags:
 - rubygeeks
 - railsfactory
 ---
-We are beginning a new journey with rubygeeks, follow us, join us, be part of the change
+We are beginning a new journey with rubygeeks, follow us, join us, be part of the change.
+
+Update
+site launched on 23rd December 2010
 
 
