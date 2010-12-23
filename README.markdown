@@ -30,3 +30,11 @@ Powered by  [jekyll](http://github.com/mojombo/jekyll).
 
 
 current design and structure inspired by brilliantcorners.org , expect a original design soon
+
+
+
+
+instruction for designers
+use these appropriately
+{{ site.url }}
+{{ page.title }}
