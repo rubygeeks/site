@@ -40,6 +40,9 @@ use these appropriately
 {{ page.title }}
 
 
+## writing a blog article
+
+
 
 
 
