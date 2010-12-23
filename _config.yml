@@ -6,6 +6,7 @@ description: "meeting point for rubygeeks"
 
 auto: false
 source: .
+destination: ./public
 paginate: 10
 permalink: /:year/:month/:title
 
