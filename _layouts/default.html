@@ -1,104 +1,150 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>{{ page.title }} | {{ site.title }}</title>
-    <meta name="author" content="{{ site.author }}" />
-    <meta name="robots" content="index, follow" />
-    <meta name="description" content="{{ site.description }}" />
-    <meta name="keywords" content="" />
-    <link href="{{ site.url }}/rss" rel="alternate" title="" type="application/rss+xml" />
-    <!--<link href="http://www.rubygeeks.com/" rel="home" />-->
-    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link type="text/css" rel="stylesheet" media="screen, projection" href="/stylesheets/screen.css" /> 
-    <link type="text/css" rel="stylesheet" media="print" href="/stylesheets/print.css" />
-    <!--[if lt IE 8]>
-      <link type="text/css" rel="stylesheet" media="screen, projection" href="/stylesheets/ie.css" />
-    <![endif]--> 
-    <link type="text/css" rel="stylesheet" media="all" href="/stylesheets/custom.css" />
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    {% include google_analytics.html %}
-  </head>
-  <body>
-    <div class="container">
+<!-- Header Starts -->
 
-      <header class="span-21 last" id="header">
-        <h1><a href="{{ site.url }}" rel="home bookmark">{{ site.title }}</a></h1>
-      </header>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
 
-      <div class="span-16" id="content">
-        {{ content }}
-      </div>
+<title>{{ page.title }} | {{ site.title }}</title>
 
-      <div class="span-5 last" id="sidebar">
-        <div class="sidebarbox"> 
-          <h4 id="about-header">About</h4> 
-          <p>A new initiative from RailsFactory for building a community of open source contributors for ruby</p> 
-        </div> 
-        <div class="sidebarbox"> 
-          <h4 id="pages-header">Pages</h4> 
-          <ul id="pages"> 
-            <li> 
-              <a rel="bookmark" title="About" href="/about.html">About</a> 
-            </li> 
-            <li> 
-              <a rel="bookmark" title="Links" href="/links.html">Links</a> 
-            </li>
-            <li> 
-              <a rel="bookmark" title="All archived posts at RubyGeeks" href="/archive.html" id="archives">Archives</a> 
-            </li>
-          </ul>
-        </div>
-        <div class="sidebarbox"> 
-          <h4 id="more-content-header">Subscribe</h4> 
-          <ul id="more-content"> 
-            <li> 
-              <a title="The RSS feed for new posts at RubyGeeks" href="/rss" class="icon-link" id="feed-link">RSS</a> 
-            </li> 
-          </ul> 
-        </div> 
-        <div class="sidebarbox"> 
-          <h4 id="more-content-header">Sidebar</h4> 
-          <ul id="more-content"> 
-            <li> 
-              <a rel="bookmark" title="RailsFactory on Facebook" href="http://facebook.com/RailsFactory" class="icon-link" id="facebook-link">RailsFactory on Facebook</a> 
-            </li> 
+<meta http-equiv="Content-Type" content="{{ site.author }}" name="author" charset="utf-8" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="{{ site.description }}" />
+<meta name="keywords" content="" />
+<link href="{{ site.url }}/rss" rel="alternate" title="" type="application/rss+xml" />
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<link rel="stylesheet" type="text/css" media="all" href="css/effects.css" />
+{% include google_analytics.html %}    
+</head>
+
+<body class="home blog logged-in gecko two-col-left width-940 two-col-left-940">
+
+<div id="wrapper">
+    
+	<div id="header" class="col-full">
+       
+		<div id="logo">
+	       
+            <a href="{{ site.url }}" rel="home bookmark">{{ site.title }}</a>
+     
+            <span class="site-description"></span>
+	      	
+		</div><!-- /#logo -->
+	    
+        <div id="topad">
+        
+	  <a href=""><img src="" alt="" /></a>	
             
-          </ul> 
-        </div> 
-        <div class="sidebarbox"> 
-          <h4 id="more-content-header">Contact Us</h4> 
-          <ul id="more-content"> 
-            <li> 
-              <a rel="bookmark" title="Send us a mail" href="mailto:admin@rubygeeks.com" class="icon-link" id="email-link">admin@rubygeeks.com</a> 
-            </li> 
-          </ul> 
-        </div> 
-      </div>
+        </div><!-- /#topad -->
+       
+       
+	</div><!-- /#header -->
+    
 
-      <footer class="span-21 last" id="footer">
-        All content copyright &copy; {{ 'now' | date: "%Y" }} Rubygeek, unless otherwise specified. 
-        Powered by <a href="http://github.com/mojombo/jekyll" title="The Jekyll (static site generator) code repository" rel="external">Jekyll</a>.
-      </footer>
-    </div>
+	<div id="navigation" class="col-full">
+		
+        <ul id="main-nav" class="nav fl">
+		
+	            <li class="page_item current_page_item"><a href"">Home</a></li>
+	        <li class="page_item page-item-2"><a href="">About</a></li>   
+        </ul><!-- /#nav -->
+       
+        <ul class="rss fr">
+            
+            <li class="sub-email"><a href="" target="_blank">Subscribe by Email</a></li>
+          
+            <li class="sub-rss"><a href="">Subscribe to RSS</a></li>
+        </ul>
+		
+        
+	</div><!-- /#navigation -->
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-    <script type="text/javascript" charset="utf-8">
-      //<![CDATA[
-        $(document).ready(function() {
-          $("a.icon-link").click( function(e) {
-            _gaq.push(['_trackEvent', 'External Links', 'Click', $(this).html()]);
-          });
-          $("a", "ul.friend-links").click( function(e) {
-            _gaq.push(['_trackEvent', 'Friend Links', 'Click', $(this).html()]);
-          });
-        });
-      //]]>
-    </script>
 
-    {% include disqus.html %}
+<!-- Header get over -->
 
-  </body>
+    <div id="content" class="col-full">
+    
+    	<div id="main-sidebar-container">
+
+  
+            <div id="main">      
+                        
+  
+                <div class="post">
+                    {{ content }}
+		    
+                    <h2 class="title"><a href="" rel="bookmark" title=""><?php the_title(); ?></a></h2>
+                    
+                    <p class="post-meta">
+                        <span class="small">by Admin</span> <span class="post-author"><?php the_author_posts_link(); ?></span>
+                        <span class="small">on 10th March</span> <span class="post-date"><?php the_time($GLOBALS['woodate']); ?></span>
+                        <span class="small">in category</span> <span class="post-category"><?php the_category(', ') ?></span>
+                    </p>
+                    
+                    <div class="entry">
+                         the_content(); else the_excerpt(); ?>
+                    </div>
+    
+                    <div class="post-more">       
+                        <span class="read-more"><a href="<?php the_permalink() ?>" title="<?php _e('Read full story','woothemes'); ?>"><?php _e('Read full story','woothemes'); ?></a></span> &bull;             
+                        <span class="comments"><?php comments_popup_link(__('Comments { 0 }', 'woothemes'), __('Comments { 1 }', 'woothemes'), __('Comments { % }', 'woothemes')); ?></span>
+                    </div>                        
+    
+                    <?php woo_post_inside_after(); ?>
+    
+                </div><!-- /.post -->
+                <div class="post">
+      
+            </div><!-- /#main -->
+            
+		</div><!-- /#main-sidebar-container -->  
+
+    </div><!-- /#content -->
+    
+		
+<!-- Footer starts here -->
+
+	<div id="footer-widgets" class="col-full">
+
+	
+		<div class="block footer-widget-1">
+        	
+		</div>
+		        
+	        	        
+		<div class="fix"></div>
+
+	</div><!-- /#footer-widgets  -->
+   
+
+	<div id="footer" class="col-full">
+     
+		<div id="copyright" class="col-left">
+			<?php 
+			$footer_left = $woo_options['woo_footer_left'];
+			if ( $footer_left ) {
+				echo '<p>'.stripslashes($footer_left).'</p>';
+			} else { 
+			?>
+			<p>&copy; <?php echo date('Y'); ?> <?php bloginfo(); ?>. <?php _e('All Rights Reserved.', 'woothemes') ?></p>
+            <?php } ?>
+		</div>
+		
+		<div id="credit" class="col-right">
+			<?php 
+			$footer_right = $woo_options['woo_footer_right'];
+			if ( $footer_right ) {
+				echo '<p>'.stripslashes($footer_right).'</p>';
+			} else { 
+			?>
+			<p><?php _e('Powered by', 'woothemes') ?> <a href="http://www.wordpress.org">Wordpress</a>. <?php _e('Designed by', 'woothemes') ?> <a href="http://www.woothemes.com"><img src="<?php bloginfo('template_directory'); ?>/images/woothemes.png" width="74" height="19" alt="Woo Themes" /></a></p>
+            <?php } ?>
+		</div>
+		
+	</div><!-- /#footer  -->
+
+	
+</div><!-- /#wrapper -->
+
+</body>
 </html>
