@@ -1,0 +1,11 @@
+To Do
+-----
+
+  - standardize on  a branding "RubyGeeks or rubygeeks"
+  - add facebook widget for rubygeeks and like button
+  - make the links as rss.xml
+  - enable/register disqus commenting
+  - add a page for "projects" and add it before "about" page link on top navigation
+  - write a document entry for adding blog entries and pages
+  - enable erb or other mechanisms for enabling dynamic values for templates
+
