@@ -156,7 +156,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover  {text-de
 /* 2.3 Header */
 #header{padding:10px 0 30px;clear:both;position:relative;}
 
-#logo  { float:left;  background: url("../images/rubygeekslogo.png") no-repeat scroll 0 0 transparent;
+#logo  { float:left;
     float: left;
     height: 85px;
     width: 375px;}
