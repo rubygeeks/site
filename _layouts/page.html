@@ -1,10 +1,29 @@
 ---
 layout: default
 ---
-<article class="post">
 
-  <h2>{{ page.title }}</h2>
+<div id="main-sidebar-container">
 
-  {{ content }}
+  
+            <div id="main">      
+                        
+  
+                <div class="post-7 post type-post hentry category-uncategorized">
+                  <h2 class="title"><a title="{{ page.title }}" href="{{ page.url }}">{{ page.title }}</a></h2>
+		    <p class="post-meta"></p>
+		    <div class="entry">
+		      {{ content }}
+		      </div>
+                    
+                </div><!-- /.post -->
+               
+      
+            </div><!-- /#main -->
+<!-- Sidebar starts -->
 
-</article>
+<div id="sidebar">
+
+
+</div><!-- /#sidebar -->            
+
+		</div><!-- /#main-sidebar-container -->  

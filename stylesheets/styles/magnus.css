@@ -1,0 +1,43 @@
+/* From CSS output */
+body {background-color:#E4E4E4;background-repeat:no-repeat;background-position:top center;border-top:4px solid #3c3c3c;}
+a:link, a:visited {color:#838C1C}
+a:hover {color:#a8b326}
+.button, .reply a {background-color:#838C1C}
+#header {background-repeat:no-repeat;background-position:top center;margin-top:0px;margin-bottom:0px;padding-top:40px;padding-bottom:30px;border:0px solid ;}
+#logo .site-title a {font:normal 40px/1em Georgia, serif;color:#222222}
+#logo .site-description {font:italic 14px/1em Georgia, serif;color:#999999}
+#logo .site-title a {font:normal 40px/1em Georgia, serif;color:#222222}
+#logo .site-description {font:italic 14px/1em Georgia, serif;color:#999999}
+body, p {font:normal 14px/1.5em Arial, sans-serif;color:#555555}
+h1 {font:normal 28px/1.5em Georgia, serif;color:#222222}h2 {font:normal 24px/1.5em Georgia, serif;color:#222222}h3 {font:normal 20px/1.5em Georgia, serif;color:#222222}h4 {font:normal 16px/1.5em Georgia, serif;color:#222222}h5 {font:normal 14px/1.5em Georgia, serif;color:#222222}h6 {font:normal 12px/1.5em Georgia, serif;color:#222222}
+.post .title, .page .title, .post .title a:link, .post .title a:visited, .page .title a:link, .page .title a:visited {font:bold 28px/1.2em "Myriad Pro", Myriad, sans-serif;color:#222222}
+.post-meta, .post-meta .post-author a {font:normal 11px/1em Verdana, Geneva, sans-serif;color:#868686}
+.entry, .entry p{font:normal 14px/1.5em Arial, sans-serif;color:#555555}
+.post-more {font:normal 12px/1.5em Arial, sans-serif;color:#868686;border-top:1px solid #e6e6e6;border-bottom:0px solid #e6e6e6;}
+.nav-entries, .wp-pagenavi {border-top:1px solid #e6e6e6;border-bottom:4px solid #e6e6e6;}
+.nav-entries a, .wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi .current, .wp-pagenavi .on, .wp-pagenavi a:hover, .wp-pagenavi span.extend, .wp-pagenavi span.pages {font:italic 12px/1.5em Georgia, serif;color:#777777!important}
+.wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi span.extend, .wp-pagenavi span.pages, .wp-pagenavi span.current {color:#777777!important}
+.widget h3 {font:bold 14px/1.5em Arial, sans-serif;color:#555555}
+.widget h3 {border-bottom:1px solid #e6e6e6; } .widget_recent_comments li, #twitter li { border-color: #e6e6e6; }
+.widget p, .widget .textwidget {font:normal 12px/1.5em Georgia, serif;color:#555555}
+.widget {font:normal 12px/1.5em Georgia, serif;color:#555555;padding:20px 20px;background-color:#FEFEFE;border:1px solid #FFFFFF;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;}
+#tabs {border:1px solid #FFFFFF;}
+#tabs {background-color:#FEFEFE;}
+#tabs .inside, #tabs ul.wooTabs li a.selected, #tabs ul.wooTabs li a:hover {background-color:#f0f0f0;}
+#tabs .inside li a {font:bold 12px/1.5em Georgia, serif;color:#555555;}
+#tabs .inside li span.meta, #tabs ul.wooTabs li a {font:normal 11px/1.5em "Trebuchet MS", Tahoma, sans-serif;color:#777777;}
+.nav a, #navigation ul.rss a {font:bold 14px Georgia, serif;color:#555555}
+#navigation {background-color:#fafafa;border-top:1px solid #fff;border-bottom:1px solid #dbdbdb;border-left:0px solid #dbdbdb;border-right:0px solid #dbdbdb;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
+#footer, #footer p {font:italic 14px Georgia, serif;color:#777777}
+#footer {border-top:4px solid #dbdbdb;border-bottom:0px solid ;border-left:0px solid ;border-right:0px solid ;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
+
+/* Custom CSS */
+body { border:0; background:#e4e4e4 url(magnus/bg.jpg) no-repeat top center; }
+.widget, #tabs { background:#FEFEFE url(magnus/bg-gradient.png) repeat-x; }
+.post, #main .page { background:#fff url(magnus/bg-gradient.png) repeat-x; padding:20px; border:1px solid #fff; border-bottom:1px solid #dbdbdb; margin-bottom:30px;}
+#main .page { margin-bottom:0; }
+#footer-widgets { background:#ccc; border-top:1px solid #bbb; }
+#comments { border-top:0; margin-top:0; padding-top:0; padding:20px; background:#efefef; border:1px solid #dbdbdb;}
+#logo .site-title a { font-family:"Myriad Pro", Myriad, "Trebuchet MS", Arial, sans-serif; font-weight:bold; text-shadow:1px 2px #fff; text-transform: uppercase;}
+#navigation ul li li a { font:12px/18px Arial, Helvetica, sans-serif; }
+.adspace-widget { padding:0; background:0; border:0; }

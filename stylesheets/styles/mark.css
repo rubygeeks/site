@@ -1,0 +1,111 @@
+/* Style by Mark Forrester */
+
+body {
+	border: none;
+	background: #ccc url('mark/body_bg.png') top left repeat;
+}
+
+a:link, a:visited {	
+	color:#c30810;
+}
+
+#wrapper {
+	margin: 30px auto !important;
+	border: 5px solid #DBDBDB;
+	background-color: #fff;
+	padding:0 20px 20px;
+	width: 940px;
+	-moz-border-radius:0 0 0 0;
+	-moz-box-shadow:0 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+#header {
+	padding:30px 0;
+	margin: 20px 0 0 0;
+	border:1px solid #E6E6E6;
+	border-bottom: none;
+	background: #F7F7F7 url('mark/header_bg.jpg') top left no-repeat;
+	width: 938px;
+}
+
+#logo {
+	margin-left: 20px;
+}
+
+#logo .site-title {
+	font-family: 'Arial Black', Arial, sans-serif;
+	text-shadow: 1px 1px #fff;
+	letter-spacing: -1px;
+	margin-bottom: 8px;
+}
+
+#topad {
+	border:1px solid #CECFC6;
+	padding:3px;
+	margin-right: 20px;
+}
+
+#navigation {
+	background-color:#d50913;
+	border-top:3px solid #a8060e;
+	border-bottom:3px solid #a8060e;
+	margin-bottom: 20px;
+}
+
+.nav a {
+	text-shadow: 1px 1px #111;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.nav a:hover, .nav li.current_page_item, .nav li.current_page_parent {
+	background-color: #a8060e;
+}
+
+#navigation ul.rss li a {
+	color:#fff;
+}
+
+.entry, .entry p {
+	font-family: Arial,sans-serif;
+}
+
+.post-more {
+	border:1px solid #E6E6E6;
+	color:#868686;
+	background-color: #f7f7f7;
+	padding: 10px;
+}
+
+/* #sidebar {
+	padding: 10px;
+	border:1px solid #E6E6E6;
+	background-color: #f7f7f7;
+}*/
+
+#tabs {
+	background-color:#000000;
+}
+
+#tabs .inside li span.meta, #tabs ul.wooTabs li a {
+	color: #fff;
+	font-family: arial, sans-serif;
+}
+
+#tabs ul.wooTabs li a.selected, #tabs ul.wooTabs li a:hover {
+	color: #111;
+}
+
+#tabs .inside li a {
+	font: bold 12px/1.5em Arial,sans-serif;
+}
+
+.widget h3 {
+	border:1px solid #000;
+	background-color: #111;
+	padding: 5px 10px;
+	font-size: 11px;
+	font-weight: normal;
+	color: #fff;
+}

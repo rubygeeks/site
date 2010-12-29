@@ -1,0 +1,6 @@
+.nav .sf-sub-indicator { display:none; }
+.nav li a:hover { text-decoration:none; }
+.nav li a.sf-with-ul { padding-right:10px; }
+.button, .button:visited { margin:0; color:#555 !important; font-weight:normal; } .reply a {  color:#555 !important; }
+.button, .button:visited{ padding:6px 0; margin:0;  }
+.widget input.submit { float:right; }

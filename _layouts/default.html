@@ -1,3 +1,4 @@
+
 <!-- Header Starts -->
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -13,7 +14,10 @@
 <link href="{{ site.url }}/rss" rel="alternate" title="" type="application/rss+xml" />
 <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
-<link rel="stylesheet" type="text/css" media="all" href="css/effects.css" />
+<link rel="stylesheet" type="text/css" href="custom.css" />
+<link rel="stylesheet" type="text/css" href="stylesheets/css/reset.css" />
+<link rel="stylesheet" type="text/css" media="all" href="stylesheets/css/effects.css" />
+<link rel="stylesheet" type="text/css" href="stylesheets/styles/default.css" />
 {% include google_analytics.html %}    
 </head>
 
@@ -25,13 +29,13 @@
        
 		<div id="logo">
 	       
-            <a href="{{ site.url }}" rel="home bookmark">{{ site.title }}</a>
+            <!-- <a href="{{ site.url }}" rel="home bookmark">{{ site.title }}</a> -->
      
-            <span class="site-description"></span>
+            <span class="site-description">Meeting Point For Ruby Geeks</span>
 	      	
 		</div><!-- /#logo -->
 	    
-        <div id="topad">
+         <div id="topad">
         
 	  <a href=""><img src="" alt="" /></a>	
             
@@ -43,15 +47,13 @@
 
 	<div id="navigation" class="col-full">
 		
-        <ul id="main-nav" class="nav fl">
+        <ul id="main-nav" class="nav fl sf-js-enabled">
 		
-	            <li class="page_item current_page_item"><a href"">Home</a></li>
+	            <li class="page_item current_page_item"><a href="">Home</a></li>
 	        <li class="page_item page-item-2"><a href="">About</a></li>   
         </ul><!-- /#nav -->
        
         <ul class="rss fr">
-            
-            <li class="sub-email"><a href="" target="_blank">Subscribe by Email</a></li>
           
             <li class="sub-rss"><a href="">Subscribe to RSS</a></li>
         </ul>
@@ -63,40 +65,65 @@
 <!-- Header get over -->
 
     <div id="content" class="col-full">
-    
+       
     	<div id="main-sidebar-container">
 
   
             <div id="main">      
-                        
+              {{ content }}
   
-                <div class="post">
-                    {{ content }}
-		    
-                    <h2 class="title"><a href="" rel="bookmark" title=""><?php the_title(); ?></a></h2>
-                    
-                    <p class="post-meta">
-                        <span class="small">by Admin</span> <span class="post-author"><?php the_author_posts_link(); ?></span>
-                        <span class="small">on 10th March</span> <span class="post-date"><?php the_time($GLOBALS['woodate']); ?></span>
-                        <span class="small">in category</span> <span class="post-category"><?php the_category(', ') ?></span>
-                    </p>
-                    
-                    <div class="entry">
-                         the_content(); else the_excerpt(); ?>
-                    </div>
-    
-                    <div class="post-more">       
-                        <span class="read-more"><a href="<?php the_permalink() ?>" title="<?php _e('Read full story','woothemes'); ?>"><?php _e('Read full story','woothemes'); ?></a></span> &bull;             
-                        <span class="comments"><?php comments_popup_link(__('Comments { 0 }', 'woothemes'), __('Comments { 1 }', 'woothemes'), __('Comments { % }', 'woothemes')); ?></span>
-                    </div>                        
-    
-                    <?php woo_post_inside_after(); ?>
-    
-                </div><!-- /.post -->
-                <div class="post">
-      
+                
             </div><!-- /#main -->
+<!-- Sidebar starts -->
+
+<div id="sidebar">
+  
+<div class="sidebarbox widget widget_pages" > 
+          <h3>About</h3> 
+          <p>A new initiative from RailsFactory for building a community of open source contributors for ruby</p> 
+        </div> 
+        <div class="sidebarbox widget widget_pages"> 
+          <h3>Pages</h3> 
+          <ul id="pages"> 
+            <li class="page_item"> 
+              <a rel="bookmark" title="About" href="/about.html">About</a> 
+            </li> 
+            <li class="page_item"> 
+              <a rel="bookmark" title="Links" href="/links.html">Links</a> 
+            </li>
+            <li class="page_item"> 
+              <a rel="bookmark" title="All archived posts at RubyGeeks" href="/archive.html" id="archives">Archives</a> 
+            </li>
+          </ul>
+        </div>
+        <div class="sidebarbox widget widget_pages"> 
+          <h3>Subscribe</h3> 
+          <ul id="more-content"> 
+            <li class="page_item"> 
+              <a title="The RSS feed for new posts at RubyGeeks" href="/rss" class="icon-link" id="feed-link">RSS</a> 
+            </li> 
+          </ul> 
+        </div> 
+        <div class="sidebarbox widget widget_pages"> 
+          <h3 id="more-content-header">Sidebar</h3> 
+          <ul id="more-content"> 
+            <li class="page_item"> 
+              <a rel="bookmark" title="RailsFactory on Facebook" href="http://facebook.com/RailsFactory" class="icon-link" id="facebook-link">RailsFactory on Facebook</a> 
+            </li> 
             
+          </ul> 
+        </div> 
+        <div class="sidebarbox widget widget_pages"> 
+          <h3>Contact Us</h3> 
+          <ul id="more-content"> 
+            <li class="page_item"> 
+              <a rel="bookmark" title="Send us a mail" href="mailto:admin@rubygeeks.com" class="icon-link" id="email-link">admin@rubygeeks.com</a> 
+            </li> 
+          </ul> 
+        </div> 
+
+</div><!-- /#sidebar -->            
+
 		</div><!-- /#main-sidebar-container -->  
 
     </div><!-- /#content -->
@@ -120,25 +147,15 @@
 	<div id="footer" class="col-full">
      
 		<div id="copyright" class="col-left">
-			<?php 
-			$footer_left = $woo_options['woo_footer_left'];
-			if ( $footer_left ) {
-				echo '<p>'.stripslashes($footer_left).'</p>';
-			} else { 
-			?>
-			<p>&copy; <?php echo date('Y'); ?> <?php bloginfo(); ?>. <?php _e('All Rights Reserved.', 'woothemes') ?></p>
-            <?php } ?>
+		
+			<p>All content copyright &copy; {{ 'now' | date: "%Y" }} Rubygeek, unless otherwise specified. </p>
+ 
 		</div>
 		
 		<div id="credit" class="col-right">
-			<?php 
-			$footer_right = $woo_options['woo_footer_right'];
-			if ( $footer_right ) {
-				echo '<p>'.stripslashes($footer_right).'</p>';
-			} else { 
-			?>
-			<p><?php _e('Powered by', 'woothemes') ?> <a href="http://www.wordpress.org">Wordpress</a>. <?php _e('Designed by', 'woothemes') ?> <a href="http://www.woothemes.com"><img src="<?php bloginfo('template_directory'); ?>/images/woothemes.png" width="74" height="19" alt="Woo Themes" /></a></p>
-            <?php } ?>
+			
+			<p>Powered by <a href="http://github.com/mojombo/jekyll" title="The Jekyll (static site generator) code repository" rel="external">Jekyll</a>.</p>
+           
 		</div>
 		
 	</div><!-- /#footer  -->

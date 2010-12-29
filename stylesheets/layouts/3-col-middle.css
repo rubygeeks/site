@@ -1,0 +1,5 @@
+#main{width:510px; margin-right:270px; float:right; position:relative; display:inline;}
+#main.fullwidth{margin:0 auto; float:none;}
+#sidebar .primary {position:absolute; right:0; top:0; width:250px;  } 
+#sidebar .secondary { position:absolute; left:0; top:0; width:140px; margin:0; } 
+#sidebar .tertiary { display:none; } 

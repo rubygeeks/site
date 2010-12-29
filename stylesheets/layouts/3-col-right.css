@@ -1,0 +1,6 @@
+#main{width:510px; float:right;}
+#main.fullwidth{margin:0 auto; float:none;}
+#sidebar{width:410px; float:left;}
+#sidebar .primary {float:left; width:250px;  } 
+#sidebar .secondary { float:right; width:140px; margin:0; } 
+#sidebar .tertiary { display:none; } 

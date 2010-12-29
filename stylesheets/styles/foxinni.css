@@ -1,0 +1,44 @@
+/* Style: Color */
+
+/* Custom */
+#wrapper { margin-top: 30px!important;margin-bottom: 30px!important}
+.nav { margin: 0; }
+.nav li { margin-right:10px }
+#logo .site-title a,#logo .site-description, h1,h2,h3,h4 { text-transform:uppercase!important }
+.post-more { padding-bottom: 40px}
+
+/* Dynamic Styling */
+
+body {background-color:#9fb6c7;background-repeat:no-repeat;background-position:top center;border-top:0px solid #8f8f5e;}
+hr, .entry img, img.thumbnail, .entry .wp-caption, #footer-widgets, #comments, #comments .comment.thread-even, #comments ul.children li, .entry h1{border-color:#d1edff}
+a:link, a:visited {color:#9fb6c7}
+a:hover {color:#4f4f4f}
+.button, .reply a {background-color:#9fb6c7}
+#header {background-repeat:no-repeat;background-position:top center;margin-top:0px;margin-bottom:0px;padding-top:20px;padding-bottom:20px;border:0px solid ;}
+#logo .site-title a {font:normal 40px/1em Impact, Charcoal, sans-serif;color:#9fb6c7}
+#logo .site-description {font:normal 11px/1em Verdana, Geneva, sans-serif;color:#9fb6c7}
+#wrapper {margin:0 auto;padding:0 0 20px 0;padding-left:30px; padding-right:30px;background-color:#fbfcf2;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;box-shadow: 0px 1px 5px rgba(0,0,0,.3);-moz-box-shadow: 0px 1px 5px rgba(0,0,0,.3);-webkit-box-shadow: 0px 1px 5px rgba(0,0,0,.3);}
+#logo .site-title a {font:normal 40px/1em Impact, Charcoal, sans-serif;color:#9fb6c7}
+#logo .site-description {font:normal 11px/1em Verdana, Geneva, sans-serif;color:#9fb6c7}
+body, p {font:normal 14px/1.5em Arial, sans-serif;color:#555555}
+h1 {font:normal 28px/1.5em Impact, Charcoal, sans-serif;color:#222222}h2 {font:normal 24px/1.5em Impact, Charcoal, sans-serif;color:#222222}h3 {font:normal 20px/1.5em Impact, Charcoal, sans-serif;color:#222222}h4 {font:normal 16px/1.5em Impact, Charcoal, sans-serif;color:#222222}h5 {font:normal 14px/1.5em Impact, Charcoal, sans-serif;color:#222222}h6 {font:normal 12px/1.5em Impact, Charcoal, sans-serif;color:#222222}
+.post .title, .page .title, .post .title a:link, .post .title a:visited, .page .title a:link, .page .title a:visited {font:normal 24px/1.2em Impact, Charcoal, sans-serif;color:#9FB6C7}
+.post-meta, .post-meta .post-author a {font:normal 11px/1em Calibri, Candara, Segoe, Optima, sans-serif;color:#868686}
+.entry, .entry p{font:normal 16px/1.5em Calibri, Candara, Segoe, Optima, sans-serif;color:#787878}
+.post-more {font:normal 12px/1.5em Impact, Charcoal, sans-serif;color:#868686;border-top:0px solid #e6e6e6;border-bottom:1px solid #e6e6e6;}
+.nav-entries, .wp-pagenavi {background-color:#D1E2EF;border-top:0px solid #e6e6e6;border-bottom:0px solid #e6e6e6;}
+.nav-entries a, .wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi .current, .wp-pagenavi .on, .wp-pagenavi a:hover, .wp-pagenavi span.extend, .wp-pagenavi span.pages {font:normal 12px/1.5em Calibri, Candara, Segoe, Optima, sans-serif;color:#616161!important}
+.wp-pagenavi a:link, .wp-pagenavi a:visited, .wp-pagenavi span.extend, .wp-pagenavi span.pages, .wp-pagenavi span.current {color:#616161!important}
+.widget h3 {font:normal 15px/1.5em Impact, Charcoal, sans-serif;color:#9FB6C7}
+.widget h3 {border-bottom:1px solid #e6e6e6; } .widget_recent_comments li, #twitter li { border-color: #e6e6e6; }
+.widget p, .widget .textwidget {font:normal 12px/1.5em Calibri, Candara, Segoe, Optima, sans-serif;color:#555555}
+.widget {font:normal 12px/1.5em Calibri, Candara, Segoe, Optima, sans-serif;color:#555555;border-radius:0px;-moz-border-radius:0px;-webkit-border-radius:0px;}
+#tabs {background-color:#D1E2EF;}
+#tabs .inside, #tabs ul.wooTabs li a.selected, #tabs ul.wooTabs li a:hover {background-color:#ffffff;}
+#tabs .inside li a {font:normal 14px/1.5em Calibri, Candara, Segoe, Optima, sans-serif;color:#9FB6CC;}
+#tabs .inside li span.meta, #tabs ul.wooTabs li a {font:normal 14px/1.5em Calibri, Candara, Segoe, Optima, sans-serif;color:#4d4d4d;}
+.nav a, #navigation ul.rss a {font:normal 12px Calibri, Candara, Segoe, Optima, sans-serif;color:#4d4d4d}
+.nav a:hover, .nav li.current_page_item {background-color:#D1E2EF}
+#navigation {border-top:0px solid #dbdbdb;border-bottom:5px solid #D1E2EF;border-left:0px solid #dbdbdb;border-right:0px solid #dbdbdb;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
+#footer, #footer p {font:normal 13px Calibri, Candara, Segoe, Optima, sans-serif;color:#9e9e9e}
+#footer {border-top:5px solid #D1E2EF;border-bottom:0px solid ;border-left:0px solid ;border-right:0px solid ;border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px;}
