@@ -20,3 +20,4 @@ exclude:
   - create_article.rb
   - links.html
   - templates
+  - TODO

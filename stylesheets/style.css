@@ -120,7 +120,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover  {text-de
 /* 2.2 Navigation */
 #navigation{font:14px/14px Helvetica, Arial, sans-serif;border-top:1px solid #dbdbdb; border-bottom:5px solid #dbdbdb;padding:10px 0; margin-bottom:30px;}
 
-#navigation ul.rss{background:url(images/ico-rss.png) no-repeat right 5px;padding:6px 15px 3px 0;margin-right:10px;}
+#navigation ul.rss{background:url(/images/ico-rss.png) no-repeat right 5px;padding:6px 15px 3px 0;margin-right:10px;}
 #navigation ul.rss li{display:inline;padding:0 10px 0 0;}
 #navigation ul.rss li a{color:#c63f00;text-decoration:none;}
 #navigation ul.rss li a:hover{text-decoration:underline;}
@@ -150,8 +150,8 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover  {text-de
 .nav li li li:hover ul, .nav li li li.sfhover ul,
 .nav li li li li:hover ul, .nav li li li li.sfhover ul  { left:auto; }
 
-.nav .sf-sub-indicator {background:	url(images/arrow-superfish.png) no-repeat;position:absolute;display:block;right:0.4em;top:0.9em;width:10px;height:10px;text-indent:-999em;overflow:hidden;}
-.nav li ul .sf-sub-indicator {background:url(images/arrow-superfish-right.png) no-repeat;}
+.nav .sf-sub-indicator {background:	url(/images/arrow-superfish.png) no-repeat;position:absolute;display:block;right:0.4em;top:0.9em;width:10px;height:10px;text-indent:-999em;overflow:hidden;}
+.nav li ul .sf-sub-indicator {background:url(/images/arrow-superfish-right.png) no-repeat;}
 
 /* 2.3 Header */
 #header{padding:10px 0 30px;clear:both;position:relative;}
@@ -222,7 +222,7 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover  {text-de
 
 .entry p  { margin: 0 0 20px 0; }
 
-.entry blockquote  { background:url(images/blockquote.png) no-repeat 0 12px; padding: 10px 20px 10px 50px; color: #444;  }
+.entry blockquote  { background:url(/images/blockquote.png) no-repeat 0 12px; padding: 10px 20px 10px 50px; color: #444;  }
 .entry blockquote p  { font-style:italic; }
 
 .entry ul  { margin: 0 0 15px 0; padding: 0 0 0 30px; }
@@ -402,7 +402,7 @@ h3#pings  { margin: 25px 0 10px 0; }
 /*-------------------------------------------------------------------------------------------*/
 
 /* 6.1 Buttons */
-.button, .button:visited, .reply a{ font-family:Verdana, Geneva, sans-serif; background: url(images/alert-overlay.png); display: inline-block; padding: 5px 10px 6px; color: #fff !important; text-decoration: none; border:none; position: relative; cursor: pointer; }
+.button, .button:visited, .reply a{ font-family:Verdana, Geneva, sans-serif; background: url(/images/alert-overlay.png); display: inline-block; padding: 5px 10px 6px; color: #fff !important; text-decoration: none; border:none; position: relative; cursor: pointer; }
 .button, .button:visited, .reply a{ background-color:#555; }
 .button:hover, .reply a:hover { color: #fff  !important; text-decoration:none; }
 .button:active, .reply a:active { top: 1px; }
@@ -412,11 +412,11 @@ h3#pings  { margin: 25px 0 10px 0; }
 
 /* 6.2 Info Boxes */
 p.alert, p.download, p.info, p.note, p.tick {  margin:10px 0 20px 0; padding:9px 10px 9px 50px; }
-p.alert { border-top:1px solid #f0baa2; border-bottom:1px solid #f0baa2; background:#ffd9c8 url(images/ico-alert.png) no-repeat 20px 13px; }
-p.download { border-top:1px solid #d4ebaf; border-bottom:1px solid #d4ebaf; background:#edfcd5 url(images/ico-download.png) no-repeat 20px 13px; }
-p.tick { border-top:1px solid #d4ebaf; border-bottom:1px solid #d4ebaf; background:#edfcd5 url(images/ico-tick.png) no-repeat 20px 13px; }
-p.info { border-top:1px solid #ccc; border-bottom:1px solid #ccc; background:#eee url(images/ico-info.png) no-repeat 20px 13px; }
-p.note { border-top:1px solid #efe3ae; border-bottom:1px solid #efe3ae; background:#fef6d2 url(images/ico-note.png) no-repeat 20px 13px; }
+p.alert { border-top:1px solid #f0baa2; border-bottom:1px solid #f0baa2; background:#ffd9c8 url(/images/ico-alert.png) no-repeat 20px 13px; }
+p.download { border-top:1px solid #d4ebaf; border-bottom:1px solid #d4ebaf; background:#edfcd5 url(/images/ico-download.png) no-repeat 20px 13px; }
+p.tick { border-top:1px solid #d4ebaf; border-bottom:1px solid #d4ebaf; background:#edfcd5 url(/images/ico-tick.png) no-repeat 20px 13px; }
+p.info { border-top:1px solid #ccc; border-bottom:1px solid #ccc; background:#eee url(/images/ico-info.png) no-repeat 20px 13px; }
+p.note { border-top:1px solid #efe3ae; border-bottom:1px solid #efe3ae; background:#fef6d2 url(/images/ico-note.png) no-repeat 20px 13px; }
 
 /* 6.3 Contact Form */
 #contact-page .screenReader { left: -9999px; position: absolute; top: -9999px; }
