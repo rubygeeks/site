@@ -29,3 +29,8 @@ credits
 -------
 
 cronparse.rb has been borrowed from Rufus-Scheduler
+
+[source][1]
+
+
+  [1]: https://github.com/rubygeeks/CronSimulator
