@@ -22,7 +22,7 @@ layout: nil
     <priority>0.2</priority>
   </url>
   <url>
-    <loc>{{ site.url }}/links.html</loc>
+    <loc>{{ site.url }}/projects.html</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
