@@ -19,3 +19,4 @@ exclude:
   - _drafts
   - create_article.rb
   - links.html
+  - templates
