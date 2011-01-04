@@ -17,3 +17,5 @@ pygments: false
 exclude:
   - README.markdown
   - _drafts
+  - create_article.rb
+  - links.html
