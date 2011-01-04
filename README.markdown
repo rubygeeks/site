@@ -17,6 +17,13 @@ git pull
 jekyll 
 
 
+## running locally
+git pull
+jekyll --serve
+
+open in  browser http://localhost:4000/
+
+
 ## automated
 
 put the deploy task in cron for 5 minutes interval
