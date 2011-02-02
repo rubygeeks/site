@@ -2,7 +2,7 @@
 layout: post
 date: 2010-12-22T18:10:00-05:00
 title: RubyGeeks
-excerpt: introduction
+excerpt: introducing our new blog "RubyGeeks", join us and be a part of the change.
 tags:
 - rubygeeks
 - railsfactory

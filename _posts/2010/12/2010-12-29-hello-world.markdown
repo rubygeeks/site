@@ -2,7 +2,7 @@
 layout: post
 date: 2010-12-29T14:13:04-05:00
 title: hello world
-excerpt: 
+excerpt: Hellow world 
 tags:
 - design
 - blog

@@ -2,7 +2,7 @@
 layout: post
 date: 2010-12-27T18:10:00-05:00
 title: 
-excerpt: 
+excerpt: Book Editor is a desktop markdown editor. It is part of a tool set to author books. Features are
 tags:
 - rubygeeks
 - BookEditor
