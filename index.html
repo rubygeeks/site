@@ -4,24 +4,30 @@ title: Ruby Geeks Site
 ---
 
 {% for post in site.posts %}
+<div class="post type-post">
   <article class="post">
+<h2 class="title"><a title="Permanent link to this post" rel="bookmark" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
+<p class="post-meta">
+                        <span class="small">by</span> <span class="post-author"><a title="Posts by {{ site.author }}" href="#">{{ site.author }}</a></span>
+                        <span class="small">on</span> <span class="post-date">{{ post.date | date: "%Y-%m-%d %I:%M%p" }}</span>
+                    </p>
+                    
+                    <div class="entry">
+    <p>{{ post.excerpt }}</p>
+</div>
 
-    <h3><a href="{{ site.url }}{{ post.url }}" rel="bookmark permalink" title="Permanent link to this post">{{ post.title }}</a></h3>
-
-    {{ post.content }}
-
-    <div class="meta">
-      {{ post.date | date: "%Y-%m-%d %I:%M%p" }}
+    <div class="post-more"> 
+      <span class="read-more"><a title="Read full story" href="{{ post.url }}">Read full story</a></span> •  
       {% if post.tags.size > 0 %}
-        &mdash;
+        
         {% for tag in post.tags %}
           <a href="http://google.com/#q=site:{{ site.url | remove:'http://' }}+{{ tag | downcase | replace:' ','+' }}" rel="tag category" title="Search this site for other posts on {{ tag | downcase | escape }} (using Google)">#{{tag | downcase}}</a>
         {% endfor %}
       {% endif %}
-      &mdash;
+      •
       <a href="{{ site.url }}{{ post.url }}#disqus_thread" title="View and leave comments on this post">Comments</a>
     </div>
 
-  </article>
+  </div>
   
 {% endfor %}

@@ -12,7 +12,26 @@ layout: default
               <div class="entry">
                 {{ content }}
               </div><!-- /.entry -->
-                        
+              <p class="tags">Tags: 
+		{% if page.tags.size > 0 %}
+		
+		{% for tag in page.tags %}
+		<a href="http://google.com/#q=site:{{ site.url | remove:'http://' }}+{{ tag | downcase | replace:' ','+' }}" rel="tag category" title="Search this site for other posts on {{ tag | downcase | escape }} (using Google)">#{{tag | downcase}}</a>
+		{% endfor %}
+		{% endif %}
+		
+	      </p>
+	      <div class="nav-entries">
+		<div class="nav-prev fl">
+		  </div>
+
+		<div class="nav-next fr">
+		  </div>
+		
+		<div class="fix">
+		  </div>
+
+		</div>
 	      
             </div><!-- /.post -->
             
